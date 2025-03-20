@@ -1,12 +1,12 @@
-## Shotgun sequencing 20250306
+# Shotgun sequencing 20250306
 
-### Sample
+## Sample
 - 북한강 수계 시료
   - 총 40개 시료
   - 5개 시료 수집 포인트 × 4월~11월 시료 수집 (총 8개월)
   - 공지천(GJ), 의암댐(UA), 청평댐(CP), 삼봉리(SB), 팔당댐(P2)
 
-### Sequencing
+## Sequencing
 
 #### 16S amplicon sequencing
 
@@ -40,7 +40,7 @@
   - [결과물](ongoing)
 
 
-### Read level analysis
+## Read level analysis
 
 #### Read level taxonomic analysis (ongoing)
 
@@ -48,7 +48,7 @@
   - ongoing
 
 
-### Assembly level analysis
+## Assembly level analysis
 
 #### Read Assembly
 
@@ -56,5 +56,5 @@
   - 같은 지역 시료끼리 묶은 coassembly
 
 
-### Binning level analysis
+## Binning level analysis
 
