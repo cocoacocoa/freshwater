@@ -3,14 +3,9 @@
 
 ## Sequencing
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
+- Sample
+    - 총 40개 시료
+    - 5개 시료 수집 포인트 × 4월~11월 시료 수집 (총 8개월)
 
 ---
 ## Read level analysis
