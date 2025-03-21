@@ -12,14 +12,14 @@
 #### 16S amplicon sequencing
 
 ##### Pacbio Sequel II platform
-  - 모든 시료에 대해 수행됨.
+  - 전체 시료 40개에 대해 수행됨
   - 전체 리드 수 X개, Xbp의 뉴클레오타이드 생산
-  - [Data table link](link)
+  - [Data table link](sglink)
 
 #### Shotgun metagenomics sequencing
 
 ##### NovaSeq 6000 system
-  - 모든 시료에 대해 수행됨.
+  - 전체 시료 40개에 대해 수행됨
   - 전체 리드 수 1.887e+09개, 2.849e+11bp의 뉴클레오타이드 생산
   - [Data table link](sglink)
 
