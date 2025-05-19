@@ -81,7 +81,7 @@
 
   - 5개 시료 채취 장소 중, 공지천의 geosmin의 농도가 월에 따라 심하게 요동침
   - 공지천의 geosmin의 월별 원인균, geosmin 유전자의 특징, 발생 원인 등을 탐색함
-  - [Geosmin Reports](geosminrep)
+  - [Geosmin Reports](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Geosmin.md)
 
 ## Binning level analysis
 
