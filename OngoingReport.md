@@ -38,11 +38,7 @@
   - [Data table link](sglink)
 
 
-## Read level analysis
-
-#### Read level taxonomic analysis (ongoing)
-
-## Assembly level analysis
+## Assembly
 
 #### Read Assembly
 
@@ -55,33 +51,56 @@
     + 데이터의 loss를 최대한 줄임
     + MAG를 최대한 많이 되살려 MAG 레벨의 분석의 수준을 높임 
 
-##### Megahit assembly 0302_01
+##### Total Megahit assembly 0302_01
 
   - 40개 시료를 모두 이용한 co-assembly
   - Bulk한 옵션 이용
   - Total length: 19.65 Gbp, Total contigs: 29.21 million seqs
   - [Assembly statistics]
 
-##### Megahit assembly 0402_01
+##### Total Megahit assembly 0402_01
 
   - **현재 연구에서 보편적으로 이용중인 어셈블리**
   - 40개 시료를 모두 이용한 co-assembly
   - 시작 k-mer를 31bp로 키움 (기존 27bp, 메모리 이슈), 그 외에는 거의 기본 옵션과 동일
   - Total length: 19.65 Gbp, Total contigs: 29.21 million seqs
-  - [Assembly statistics]
+  - [Assembly statistics](assemblyresult)
 
-##### Megahit assembly 0402_01_unmappedplus (ongoing)
+##### Total Megahit assembly 0402_01_unmappedplus (ongoing)
 
   - 위의 어셈블리를 기반으로, unmapped reads를 중복시켜 만든 어셈블리 (raw reads + unmapped reads)
   - 위와 동일한 옵션 이용
 
-#### Odor compounds
+## Binning
 
-##### Geosmin
+#### Strategy
+
+  - MetaBAT2 (+ MaxBin2, VAMB, SemiBin2, GraphMB) > DASTools > CheckM (QC) > GTDB-tk (Taxonomic assignment)
+  - Preliminary: MetaBAT2 > CheckM (QC)
+  - High quality: >90% completeness, <5% contamination
+  - Middle quality: >50% completeness, <10% contamination
+
+##### (Preliminary) Binning result 01
+
+  - Assembly: Total Megahit assembly 0302_01 이용
+  - Binning: MetBAT2만 이용
+  - High quality: 120개, Middle quality: 613개
+  - [GTDB-tk result](gtdbtkresult)
+
+##### (Preliminary) Binning result 02
+
+  - Assembly: Total Megahit assembly 0402_01 이용
+  - Binning: MetBAT2만 이용
+  - High quality: 122개, Middle quality: 715개
+
+## Odor compounds
+
+#### Geosmin
 
   - 5개 시료 채취 장소 중, 공지천의 geosmin의 농도가 월에 따라 심하게 요동침
   - 공지천의 geosmin의 월별 원인균, geosmin 유전자의 특징, 발생 원인 등을 탐색함
   - [Geosmin Reports](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Geosmin.md)
 
-## Binning level analysis
+#### 2-MIB
 
+  - ??
