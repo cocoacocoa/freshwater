@@ -9,26 +9,27 @@
 
 ## Sequencing
 
-#### 16S amplicon sequencing
+#### 16S amplicon sequencing (run 01)
 
-##### Pacbio Sequel II platform
+  - Machine: Pacbio Sequel II platform
   - 전체 시료 40개에 대해 수행됨
   - 전체 리드 수 X개, Xbp의 뉴클레오타이드 생산
   - [Data table link](sglink)
 
-#### Shotgun metagenomics sequencing
+#### Shotgun metagenomics sequencing (run 01)
 
-##### NovaSeq 6000 system
+  - Machine: NovaSeq 6000 system
   - 전체 시료 40개에 대해 수행됨
   - 전체 리드 수 1.887e+09개, 2.849e+11bp의 뉴클레오타이드 생산
   - [Data table link](sglink)
 
-#### Read QC
+## Read QC
 
-##### Pacbio Sequel II platform
+#### 16S amplicon sequencing (run 01)
+  
   - ongoing
 
-##### NovaSeq 6000 system
+#### Shotgun metagenomics sequencing (run 01)
 
   - [fastp](https://academic.oup.com/bioinformatics/article/34/17/i884/5093234) 이용
   - Q20, 그 외 기본 옵션 이용
@@ -39,8 +40,6 @@
 
 #### Read level taxonomic analysis (ongoing)
 
-##### Metabuli
-  - ongoing
 
 
 ## Assembly level analysis
