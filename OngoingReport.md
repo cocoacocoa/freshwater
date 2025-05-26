@@ -76,7 +76,7 @@
 
 #### Strategy
 
-  - MetaBAT2 (+ VAMB, SemiBin2, GraphMB) > DASTools > CheckM (QC) > GTDB-tk (Taxonomic assignment)
+  - [MetaBAT2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/) (+ [VAMB](https://www.nature.com/articles/s41587-020-00777-4), [SemiBin2](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i21/7210480), [GraphMB](https://academic.oup.com/bioinformatics/article/38/19/4481/6668279)) > [DASTools](https://www.nature.com/articles/s41564-018-0171-1) > [CheckM](https://pmc.ncbi.nlm.nih.gov/articles/PMC4484387/) (QC) > [GTDB-tk](https://academic.oup.com/bioinformatics/article/36/6/1925/5626182) (Taxonomic assignment)
   - Preliminary: MetaBAT2 > CheckM (QC) > GTDB-tk
   - High quality: >90% completeness, <5% contamination
   - Middle quality: >50% completeness, <10% contamination
