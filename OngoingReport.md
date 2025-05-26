@@ -40,7 +40,7 @@
 
 ## Assembly
 
-#### Read Assembly
+#### Read assembly
 
   - [MEGAHIT](https://academic.oup.com/bioinformatics/article/31/10/1674/177884) 이용
   - 리드 및 시료의 특성에 따라 세 가지 방식의 어셈블리 수행
@@ -76,8 +76,7 @@
 
 #### Strategy
 
-  - MetaBAT2 (+ MaxBin2, VAMB, SemiBin2, GraphMB)
-    > DASTools > CheckM (QC) > GTDB-tk (Taxonomic assignment)
+  - MetaBAT2 (+ VAMB, SemiBin2, GraphMB) > DASTools > CheckM (QC) > GTDB-tk (Taxonomic assignment)
   - Preliminary: MetaBAT2 > CheckM (QC) > GTDB-tk
   - High quality: >90% completeness, <5% contamination
   - Middle quality: >50% completeness, <10% contamination
@@ -113,6 +112,18 @@
 
   - 진행 예정
 
-## Virome Analysis
+## Virome analysis
 
-#### 
+#### Viral DNA detection
+  
+
+## Resistance & Pathogenicity
+
+
+## Functional genes & Metabolism
+
+
+## Environmental correlation
+
+
+
