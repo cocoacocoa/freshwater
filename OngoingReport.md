@@ -9,14 +9,14 @@
 
 ## Sequencing
 
-#### 16S amplicon sequencing (run 01)
+#### 16S amplicon sequencing
 
   - Machine: Pacbio Sequel II platform
   - 전체 시료 40개에 대해 수행됨
   - 전체 리드 수 X개, Xbp의 뉴클레오타이드 생산
   - [Data table link](sglink)
 
-#### Shotgun metagenomics sequencing (run 01)
+#### Shotgun metagenomics sequencing
 
   - Machine: NovaSeq 6000 system
   - 전체 시료 40개에 대해 수행됨
@@ -26,11 +26,11 @@
 
 ## Read QC
 
-#### 16S amplicon sequencing (run 01)
+#### 16S amplicon sequencing
   
   - ongoing
 
-#### Shotgun metagenomics sequencing (run 01)
+#### Shotgun metagenomics sequencing
 
   - [fastp](https://academic.oup.com/bioinformatics/article/34/17/i884/5093234) 이용
   - Q20, 그 외 기본 옵션 이용
@@ -54,9 +54,9 @@
 ##### Total Megahit assembly 0302_01
 
   - 40개 시료를 모두 이용한 co-assembly
-  - Bulk한 옵션 이용
+  - 최대한 bulk한 옵션 이용
   - Total length: 19.65 Gbp, Total contigs: 29.21 million seqs
-  - [Assembly statistics]
+  - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
 
 ##### Total Megahit assembly 0402_01
 
@@ -64,34 +64,37 @@
   - 40개 시료를 모두 이용한 co-assembly
   - 시작 k-mer를 31bp로 키움 (기존 27bp, 메모리 이슈), 그 외에는 거의 기본 옵션과 동일
   - Total length: 19.65 Gbp, Total contigs: 29.21 million seqs
-  - [Assembly statistics](assemblyresult)
+  - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
 
-##### Total Megahit assembly 0402_01_unmappedplus (ongoing)
+##### Total Megahit assembly 0404_01 (ongoing)
 
   - 위의 어셈블리를 기반으로, unmapped reads를 중복시켜 만든 어셈블리 (raw reads + unmapped reads)
   - 위와 동일한 옵션 이용
+  - Ongoing
 
 ## Binning
 
 #### Strategy
 
-  - MetaBAT2 (+ MaxBin2, VAMB, SemiBin2, GraphMB) > DASTools > CheckM (QC) > GTDB-tk (Taxonomic assignment)
-  - Preliminary: MetaBAT2 > CheckM (QC)
+  - MetaBAT2 (+ MaxBin2, VAMB, SemiBin2, GraphMB)
+    > DASTools > CheckM (QC) > GTDB-tk (Taxonomic assignment)
+  - Preliminary: MetaBAT2 > CheckM (QC) > GTDB-tk
   - High quality: >90% completeness, <5% contamination
   - Middle quality: >50% completeness, <10% contamination
 
 ##### (Preliminary) Binning result 01
 
   - Assembly: Total Megahit assembly 0302_01 이용
-  - Binning: MetBAT2만 이용
+  - Binning: MetaBAT2만 이용
   - High quality: 120개, Middle quality: 613개
-  - [GTDB-tk result](gtdbtkresult)
+  - [GTDB-tk result](https://github.com/cocoacocoa/freshwater/blob/main/Reports/120_GTDB_tk.md)
 
 ##### (Preliminary) Binning result 02
 
   - Assembly: Total Megahit assembly 0402_01 이용
-  - Binning: MetBAT2만 이용
+  - Binning: MetaBAT2만 이용
   - High quality: 122개, Middle quality: 715개
+  - GTDB-tk는 추후 돌려볼 예정
 
 ## Odor compounds
 
@@ -99,8 +102,17 @@
 
   - 5개 시료 채취 장소 중, 공지천의 geosmin의 농도가 월에 따라 심하게 요동침
   - 공지천의 geosmin의 월별 원인균, geosmin 유전자의 특징, 발생 원인 등을 탐색함
+  - 추가로, geosmin 탐지를 위한 global primer 및 taxa-specific primer에 대한 제작을 시도함
   - [Geosmin Reports](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Geosmin.md)
 
 #### 2-MIB
 
-  - ??
+  - 진행 예정
+
+#### Other compounds
+
+  - 진행 예정
+
+## Virome Analysis
+
+#### 
