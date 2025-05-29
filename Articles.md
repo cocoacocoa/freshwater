@@ -5,7 +5,7 @@
 
 ### Time-series
 
-- [Two decades of bacterial ecology and evolution in a freshwater lake](https://www.nature.com/articles/s41564-024-01888-3) (Nature microbiology, 2025)
+- [Two decades of bacterial ecology and evolution in a freshwater lake](https://www.nature.com/articles/s41564-024-01888-3) (2025, Nature microbiology)
 
     - 미국 위스콘신주의 담수호 Lake Mendota에서 20년간(2000~2019) 수집된 471개 메타지놈 샘플을 기반으로 분석한 결과, 담수 미생물 군집은 종 및 균주 수준에서 계절적인 출현 패턴과 유전적 다양성(SNV 패턴)의 반복성을 갖는 경우가 많았다.
     - 특히 2012년 극심한 환경 교란(폭염, 가뭄, 수온 상승 등) 이후 Nanopelagicaceae 등 일부 우점 종에서는 균주 조성의 급격한 전환과 더불어 특정 대사 유전자들(예: 아미노산·핵산 대사)에 대한 양의 선택 신호가 관찰되어, 환경 스트레스가 진화적 변화까지 유도할 수 있음을 보여주었다.
