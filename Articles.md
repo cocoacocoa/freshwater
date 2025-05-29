@@ -2,7 +2,7 @@
 1. 
 
 ## Freshwater
-1. [Viral community-wide auxiliary metabolic genes differ by lifestyles, habitats, and hosts](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-022-01384-y) (2022)
+1. [Viral community-wide auxiliary metabolic genes differ by lifestyles, habitats, and hosts](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-022-01384-y) (2022, Microbiome)
   - 바이러스의 생활사(lifestyle)는 보조대사유전자(AMGs)의 다양성과 기능적 조성에 가장 큰 영향을 미치는 요인으로, 용해성(lytic) 바이러스는 숙주의 핵심 대사 경로(예: 에너지 생산, 단백질 접힘, 지질 대사 등)를 조절하여 바이러스 복제를 촉진하는 반면, 용원성(temperate) 바이러스는 숙주의 생존성과 환경 적응성을 높이는 방어·스트레스 반응 관련 AMGs를 보유하는 경향이 있다.
   - 바이러스의 AMG 조성은 서식지(예: 수환경 vs. 퇴적물) 및 숙주 분류군에 따라 다르게 나타나며, 이는 바이러스가 숙주 미생물의 기능적 요구나 환경 스트레스에 적응해 진화해왔음을 시사한다. 예를 들어, 탄수화물 대사가 풍부한 퇴적물 바이러스는 해당 경로의 AMGs를 갖고 있으며, 광합성 미생물을 숙주로 하는 바이러스는 광합성 및 아미노산 대사 관련 유전자를 포함하고 있다.
   - 이러한 AMG 기반 바이러스-숙주 상호작용은 탄소, 질소, 황, 인 등의 생지화학적 순환에 직접 관여하며, 특히 질소 대사 관련 유전자의 높은 발현은 바이러스가 숙주 미생물의 대사를 통해 주변 환경의 영양염 흐름과 greenhouse gas 방출(예: N₂O)에도 영향을 줄 수 있음을 보여준다 — 이는 수환경 미생물군집의 기능적 변화 및 생태계 물질 순환 연구에서 중요한 고려 요소가 된다.
