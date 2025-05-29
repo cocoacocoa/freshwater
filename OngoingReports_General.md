@@ -24,7 +24,7 @@
   - 전체 시료 40개에 대해 수행됨
   - 전체 리드 수 1.887e+09개, 2.849e+11bp의 뉴클레오타이드 생산
   - 평균 리드 수 4.418e+07개, 최소 리드 수 3.183e+07개 (05SB), 최대 리드 수 5.849e+07개 (08CP)
-  - 파일 위치: [root directory]/Lane_1/~/~_L001_R1_001.fastq.gz, [root directory]/Lane_1/~/~_L001_R2_001.fastq.gz
+  - 파일 위치: [root directory]/Lane_1/
   - [Data table link](sglink)
 
 ## Read QC
@@ -38,7 +38,7 @@
   - [fastp](https://academic.oup.com/bioinformatics/article/34/17/i884/5093234) 이용
   - Q20, 그 외 기본 옵션 이용
   - 전체 QCed 리드: 1.77e+09개 (93.65%)
-  - 파일 위치: [root directory]/Lane_1/~/~_1.fastq.gz, [root directory]/Lane_1/~/~_2.fastq.gz
+  - 파일 위치: [root directory]/Lane_1/
   - [Data table link](sglink)
 
 
@@ -59,7 +59,7 @@
 
   - 40개 시료를 모두 이용한 co-assembly
   - 최대한 bulk한 옵션 이용
-  - 파일 위치: [root directory]/DDD
+  - 파일 위치: [root directory]/coassembly/total/total_assembly_megahit_0302_01
   - Total length: 19.65 Gbp, Total contigs: 29.21 million seqs
   - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
 
@@ -68,7 +68,7 @@
   - **현재 연구에서 보편적으로 이용중인 어셈블리**
   - 40개 시료를 모두 이용한 co-assembly
   - 시작 k-mer를 31bp로 키움 (기존 27bp, 메모리 이슈), 그 외에는 거의 기본 옵션과 동일
-  - 파일 위치: [root directory]/DDD
+  - 파일 위치: [root directory]/coassembly/total/total_assembly_megahit_0402_01
   - Total length: 29.34 Gbp, Total contigs: 43.37 million seqs
   - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
 
@@ -91,6 +91,7 @@
 
   - Assembly: Total Megahit assembly 0302_01 이용
   - Binning: MetaBAT2만 이용
+  - 파일 위치: [root directory]/coassembly/total/binning/total_assembly_megahit_0302_01/metabat2/
   - High quality: 120개, Middle quality: 613개
   - [GTDB-tk result](https://github.com/cocoacocoa/freshwater/blob/main/Reports/120_GTDB_tk.md)
 
@@ -98,6 +99,7 @@
 
   - Assembly: Total Megahit assembly 0402_01 이용
   - Binning: MetaBAT2만 이용
+  - 파일 위치: [root directory]/coassembly/total/binning/total_assembly_megahit_0402_01/metabat2/
   - High quality: 122개, Middle quality: 715개
   - GTDB-tk는 추후 돌려볼 예정
 
