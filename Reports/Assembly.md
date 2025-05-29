@@ -1,20 +1,69 @@
 # Assembly
 
+##### GJ Megahit assembly 03
+
+  - 공지천 8개 시료를 이용한 co-assembly
+  - 리드를 뭉쳐서 두 파일로 넣음 (R1, R2), 기본 옵션 중 --presets meta-large 이용
+  - 이용 옵션: --presets meta-large (--k-min 27 --k-max 127 --k-step 10)
+  - 파일 위치: [root directory]/coassembly/GJtotal/GJtotal_assembly_megahit_03/final.contigs.fa
+  - Total length: XX.XX Gbp, Total contigs: XX.XX million seqs
+
+
+##### GJ Megahit assembly 0302
+
+  - 공지천 8개 시료를 이용한 co-assembly
+  - 기본 옵션 중 --presets meta-large 이용
+  - 이용 옵션: --presets meta-large (--k-min 27 --k-max 127 --k-step 10)
+  - 파일 위치: [root directory]/coassembly/GJtotal/GJtotal_assembly_megahit_0302/final.contigs.fa
+  - Total length: XX.XX Gbp, Total contigs: XX.XX million seqs
+
+
 ##### Total Megahit assembly 0302_01
 
   - 40개 시료를 모두 이용한 co-assembly
   - 최대한 bulk한 옵션 이용
   - 이용 옵션: --min-count 3 --k-list 31,51,71,91,99
+  - 파일 위치: [root directory]/coassembly/total/total_assembly_megahit_0302_01/final.contigs.fa
   - Total length: 19.65 Gbp, Total contigs: 29.21 million seqs
-
+    - Longest Contig: 445,459
+    - Shortest Contig: 200
+    - Total Length: 19,653,312,470
+    - Total Contigs: 29,208,744
+    - 100 bp Length Sum: 19,653,312,470 (100.00%)
+    - 100 bp Contig Count: 29,208,744 (100.00%)
+    - 500 bp Length Sum: 13,822,012,862 (70.33%)
+    - 500 bp Contig Count: 11,217,868 (38.41%)
+    - 1000 bp Length Sum: 8,773,223,366 (44.64%)
+    - 1000 bp Contig Count: 3,822,111 (13.09%)
+    - 5000 bp Length Sum: 2,401,617,042 (12.22%)
+    - 5000 bp Contig Count: 238,760 (0.82%)
+    - 10000 bp Length Sum: 1,244,225,645 (6.33%)
+    - 10000 bp Contig Count: 66,499 (0.23%)
+    - A Count: 5,007,601,437
+    - A Ratio: 25.48%
+    - T Count: 4,873,771,180
+    - T Ratio: 24.80%
+    - G Count: 4,868,676,027
+    - G Ratio: 24.77%
+    - C Count: 4,903,263,826
+    - C Ratio: 24.95%
+    - N Count: 0
+    - N Ratio: 0.00%
+    - N20: 2,844
+    - N50: 848
+    - N80: 391
+    - L20: 657,687
+    - L50: 4,968,798
+    - L80: 15,531,262
 
 
 ##### Total Megahit assembly 0402_01
 
   - **현재 연구에서 보편적으로 이용중인 어셈블리**
   - 40개 시료를 모두 이용한 co-assembly
-  - 시작 k-mer를 31bp로 키움 (기존 27bp, 메모리 이슈), 그 외에는 거의 기본 옵션과 동일
+  - 시작 k-mer를 31bp로 키움 (기존 27bp, 메모리 이슈), min-count를 3으로 설정, 그 외에는 거의 기본 옵션과 동일
   - 이용 옵션: --min-count 3 --k-list 31,41,51,61,71,81,91,101,111,121,131 --mem-flag 1
+  - 파일 위치: [root directory]/coassembly/total/total_assembly_megahit_0402_01/final.contigs.fa
   - Total length: 29.34 Gbp, Total contigs: 43.37 million seqs
     - Longest Contig: 582,015
     - Shortest Contig: 200
