@@ -1,5 +1,7 @@
 # Shotgun sequencing 20250306
 
+- Root directory: /panpyro/bravo/bhpark/kwjang_2025/metagenome/20250306_shotgun
+
 ## Odor compounds
 
 #### Geosmin
