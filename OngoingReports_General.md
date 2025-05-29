@@ -1,5 +1,7 @@
 # Shotgun sequencing 20250306
 
+- Root directory: /panpyro/bravo/bhpark/kwjang_2025/metagenome/20250306_shotgun
+
 ## Sample
 
   - 북한강 수계 시료 (2023, run 01)
@@ -22,6 +24,7 @@
   - 전체 시료 40개에 대해 수행됨
   - 전체 리드 수 1.887e+09개, 2.849e+11bp의 뉴클레오타이드 생산
   - 평균 리드 수 4.418e+07개, 최소 리드 수 3.183e+07개 (05SB), 최대 리드 수 5.849e+07개 (08CP)
+  - 파일 위치: [root directory]/Lane_1/~/~_L001_R1_001.fastq.gz, [root directory]/Lane_1/~/~_L001_R2_001.fastq.gz
   - [Data table link](sglink)
 
 ## Read QC
@@ -35,6 +38,7 @@
   - [fastp](https://academic.oup.com/bioinformatics/article/34/17/i884/5093234) 이용
   - Q20, 그 외 기본 옵션 이용
   - 전체 QCed 리드: 1.77e+09개 (93.65%)
+  - 파일 위치: [root directory]/Lane_1/~/~_1.fastq.gz, [root directory]/Lane_1/~/~_2.fastq.gz
   - [Data table link](sglink)
 
 
@@ -55,6 +59,7 @@
 
   - 40개 시료를 모두 이용한 co-assembly
   - 최대한 bulk한 옵션 이용
+  - 파일 위치: [root directory]/DDD
   - Total length: 19.65 Gbp, Total contigs: 29.21 million seqs
   - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
 
@@ -63,6 +68,7 @@
   - **현재 연구에서 보편적으로 이용중인 어셈블리**
   - 40개 시료를 모두 이용한 co-assembly
   - 시작 k-mer를 31bp로 키움 (기존 27bp, 메모리 이슈), 그 외에는 거의 기본 옵션과 동일
+  - 파일 위치: [root directory]/DDD
   - Total length: 29.34 Gbp, Total contigs: 43.37 million seqs
   - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
 
