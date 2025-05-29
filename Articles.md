@@ -1,20 +1,22 @@
-## Tool
+### Tool
 
 - [iPHoP: An integrated machine learning framework to maximize host prediction for metagenome-derived viruses of archaea and bacteria](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002083) (2025, PLOS Biology, HJPark's recommendation)
 
 - [Macrel: antimicrobial peptide screening in genomes and metagenomes](https://peerj.com/articles/10555/) (2020, PeerJ, HJPark's recommendation)
 
-- [phold - Phage Annotation using Protein Structures] (not published yet, HJPark's recommendation)
+- [phold - Phage Annotation using Protein Structures](https://github.com/gbouras13/phold?tab=readme-ov-file) (not published yet, HJPark's recommendation)
 
-- 
 
-## General
 
--
+### Small peptide
 
-## Freshwater
+- [A catalog of small proteins from the global microbiome](https://www.nature.com/articles/s41467-024-51894-6) (2024, Nature communications, HJPark's recommendation)
 
-### Time-series
+    - 연구진은 전 세계의 메타지놈과 균주 유전체 데이터를 분석해 9.6억 개의 미생물 소단백질(smORF) 서열을 포함하는 GMSC(Global Microbial smORF Catalog)를 구축했으며, 이 중 약 4,360만 개는 고신뢰(high-quality) 소단백질로 확인되었다.
+    - 대부분의 smORF는 기존 데이터베이스에 등재되어 있지 않거나 기능이 알려지지 않은 상태였으며, 특히 고세균에서 세포막 연관성과 대사 관련 기능이 풍부한 특성이 나타났다.
+    - 이 연구는 smORF의 계통적 다양성과 생태적 분포를 포괄적으로 조명하며, 미생물 기능 유전체 연구와 신기능 단백질 탐색의 기반이 되는 핵심 참조 자원(GMSC)을 제공한다.
+
+### Time series
 
 - [Two decades of bacterial ecology and evolution in a freshwater lake](https://www.nature.com/articles/s41564-024-01888-3) (2025, Nature microbiology)
 
