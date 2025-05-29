@@ -1,6 +1,6 @@
 # Assembly
 
-- Root directory: /panpyro/bravo/bhpark/kwjang_2025/metagenome/20250306_shotgun/
+- Root directory: /panpyro/bravo/bhpark/kwjang_2025/metagenome/20250306_shotgun
 
 ##### GJ Megahit assembly 03
 
