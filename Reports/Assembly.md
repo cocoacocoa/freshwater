@@ -46,8 +46,39 @@
   - 공지천 8개 시료를 이용한 co-assembly
   - 기본 옵션 중 --presets meta-large 이용
   - 이용 옵션: --presets meta-large (--k-min 27 --k-max 127 --k-step 10)
+  - *위의 결과와 거의 동일함*
   - 파일 위치: [root directory]/coassembly/GJtotal/GJtotal_assembly_megahit_0302/final.contigs.fa
-  - Total length: XX.XX Gbp, Total contigs: XX.XX million seqs
+  - Total length: 10.23 Gbp, Total contigs: 18.15 million seqs
+    - Longest Contig: 267,309
+    - Shortest Contig: 200
+    - Total Length: 10,227,008,581
+    - Total Contigs: 18,145,616
+    - 100 bp Length Sum: 10,227,008,581 (100.00%)
+    - 100 bp Contig Count: 18,145,616 (100.00%)
+    - 500 bp Length Sum: 5,954,238,754 (58.22%)
+    - 500 bp Contig Count: 6,170,870 (34.01%)
+    - 1000 bp Length Sum: 2,818,884,490 (27.56%)
+    - 1000 bp Contig Count: 1,470,258 (8.10%)
+    - 5000 bp Length Sum: 490,586,932 (4.80%)
+    - 5000 bp Contig Count: 52,179 (0.29%)
+    - 10000 bp Length Sum: 226,824,600 (2.22%)
+    - 10000 bp Contig Count: 12,547 (0.07%)
+    - A Count: 2,577,739,414
+    - A Ratio: 25.21%
+    - T Count: 2,502,320,394
+    - T Ratio: 24.47%
+    - G Count: 2,564,745,573
+    - G Ratio: 25.08%
+    - C Count: 2,582,203,200
+    - C Ratio: 25.25%
+    - N Count: 0
+    - N Ratio: 0.00%
+    - N20: 1,342
+    - N50: 579
+    - N80: 362
+    - L20: 794,758
+    - L50: 4,605,311
+    - L80: 11,479,339
 
 
 ##### Total Megahit assembly 0302_01
