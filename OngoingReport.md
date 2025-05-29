@@ -63,7 +63,7 @@
   - **현재 연구에서 보편적으로 이용중인 어셈블리**
   - 40개 시료를 모두 이용한 co-assembly
   - 시작 k-mer를 31bp로 키움 (기존 27bp, 메모리 이슈), 그 외에는 거의 기본 옵션과 동일
-  - Total length: 19.65 Gbp, Total contigs: 29.21 million seqs
+  - Total length: 29.34 Gbp, Total contigs: 43.37 million seqs
   - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
 
 ##### Total Megahit assembly 0404_01 (ongoing)
