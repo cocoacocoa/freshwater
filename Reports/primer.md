@@ -14,3 +14,6 @@
 
 #### 1.3. [Genes Associated with 2-Methylisoborneol Biosynthesis in Cyanobacteria: Isolation, Characterization, and Expression in Response to Light (2011)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3072421/)
   - The housekeeping gene, 16S rRNA, was selected as the control to normalize the expression of target genes. Primer pairs Mtsf (5′-CGATTGGTCGGTATTAGAGGCT-3′) and Mtsr (5′-ATCACGCGGTCATCAGGCTT-3′), and Mtcf (5′-CGCTCGCTTTGTGAGTGAGATAG-3′) and Mtcr (5′-GGCAGTAGAGTGGTGAGGCAGTT-3′) designed in this study were used to amplify the methltransferase and 2-MIB cyclase genes, respectively. Primers P16f (5′-ACGGAGTTAGCCGATGCTTATTC-3′) and P16r (5′-CGAAAGCCTGACGGAGCAATA-3′) were used for amplification of the 16S rRNA gene.
+
+#### 1.4. [Quantitative PCR based detection system for cyanobacterial geosmin/2-methylisoborneol (2-MIB) events in drinking water sources: Current status and challenges](https://www.sciencedirect.com/science/article/pii/S0043135420310137)
+  - Table. 1 참조
