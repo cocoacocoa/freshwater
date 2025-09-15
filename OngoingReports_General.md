@@ -72,27 +72,39 @@
   - Total length: 29.34 Gbp, Total contigs: 43.37 million seqs
   - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
 
-##### Total Megahit assembly 0404_01 (ongoing)
+##### Total Megahit assembly 0403_01
 
+  - 40개 시료를 모두 이용한 co-assembly
   - 위의 어셈블리를 기반으로, unmapped reads를 중복시켜 만든 어셈블리 (raw reads + unmapped reads)
   - 위와 동일한 옵션 이용
-  - Ongoing
+  - 파일 위치: @panpyro, /panpyro/charlie/bhpark/kwjang_2025/metagenome/20250306_shotgun/coassembly/total/reads/total_assembly_megahit_0403_01 (현재 삭제됨)
+  - 그 결과, total length, total contig의 평가 결과가 0402_01과 비슷하거나 좋지 못함
+  - **최종 폐기**
 
+##### Single Megahit assembly 01
+
+  - 각각의 시료를 이용한 개별 assembly, 40개 시료 모두 개별로 수행
+  - meta-sensitive 옵션 이용, 될 수 있는한 sensitive하게 어셈블리 획득 시도
+  - 파일 위치: [root directory]/assembly/megahit
+  - Total length: X.XX Gbp, Total contigs: 1.60 million seqs ~ 3.14 million seqs (average 2.34 million seqs)
+  - [Assembly statistics](https://github.com/cocoacocoa/freshwater/blob/main/Reports/Assembly.md)
+    
 ## Binning
 
 #### Strategy
 
-  - [MetaBAT2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/) (+ [VAMB](https://www.nature.com/articles/s41587-020-00777-4), [SemiBin2](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i21/7210480), [GraphMB](https://academic.oup.com/bioinformatics/article/38/19/4481/6668279)) > [DASTools](https://www.nature.com/articles/s41564-018-0171-1) > [CheckM](https://pmc.ncbi.nlm.nih.gov/articles/PMC4484387/) (QC) > [GTDB-tk](https://academic.oup.com/bioinformatics/article/36/6/1925/5626182) (Taxonomic assignment)
+  - [MetaBAT2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/) (+ [COMEBin](https://www.nature.com/articles/s41467-023-44290-z) > [DASTools](https://www.nature.com/articles/s41564-018-0171-1)) > [CheckM](https://pmc.ncbi.nlm.nih.gov/articles/PMC4484387/) (QC) > [GTDB-tk](https://academic.oup.com/bioinformatics/article/36/6/1925/5626182) (Taxonomic assignment)
   - Preliminary: MetaBAT2 > CheckM (QC) > GTDB-tk
-  - High quality: >90% completeness, <5% contamination
-  - Middle quality: >50% completeness, <10% contamination
+  - Near-complete: completeness ≥ 90% & contamination ≤ 5%
+  - High-quality: completeness ≥ 70% & contamination ≤ 10%
+  - Medium-quality: completeness ≥ 50% & contamination ≤ 10%
 
 ##### (Preliminary) Binning result 01
 
   - Assembly: Total Megahit assembly 0302_01 이용
   - Binning: MetaBAT2만 이용
   - 파일 위치: [root directory]/coassembly/total/binning/total_assembly_megahit_0302_01/metabat2/
-  - High quality: 120개, Middle quality: 613개
+  - ~~High quality: 120개, Middle quality: 613개~~
   - [GTDB-tk result](https://github.com/cocoacocoa/freshwater/blob/main/Reports/120_GTDB_tk.md)
 
 ##### (Preliminary) Binning result 02
@@ -100,7 +112,14 @@
   - Assembly: Total Megahit assembly 0402_01 이용
   - Binning: MetaBAT2만 이용
   - 파일 위치: [root directory]/coassembly/total/binning/total_assembly_megahit_0402_01/metabat2/
-  - High quality: 122개, Middle quality: 715개
-  - GTDB-tk는 추후 돌려볼 예정
+  - **Near-complete: 122개, High-quality: 480개, Midium-quality: 716개**
+  - GTDB-tk 돌렸음, 파일 업로드 예정
 
+##### (Preliminary) Single Binning result 01
+
+  - Assembly: Single Megahit assembly 01 이용
+  - Binning: MetaBAT2만 이용
+  - 파일 위치: [root directory]/assembly/binning/
+  - **Near-complete: 192개, High-quality: 591개, Midium-quality: 889개**
+  - GTDB-tk 돌렸음, 파일 업로드 예정
 
