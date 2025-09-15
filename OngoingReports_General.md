@@ -1,6 +1,6 @@
 # Shotgun sequencing 20250306
 
-- Root directory: /panpyro/bravo/bhpark/kwjang_2025/metagenome/20250306_shotgun
+- Root directory: @panpyro, /panpyro/bravo/bhpark/kwjang_2025/metagenome/20250306_shotgun
 
 ## Sample
 
@@ -47,13 +47,9 @@
 #### Read assembly
 
   - [MEGAHIT](https://academic.oup.com/bioinformatics/article/31/10/1674/177884) 이용
-  - 리드 및 시료의 특성에 따라 세 가지 방식의 어셈블리 수행
+  - 리드 및 시료의 특성에 따라 두 가지 방식의 어셈블리 수행
     + 전체 40개 시료를 모두 이용한 co-assembly
-    + 각 지역별 8개 시료를 이용한 co-assembly
     + 각각의 시료에 대한 (single-) assembly
-  - *어셈블리를 여러번 반복 실행하는 이유*
-    + 데이터의 loss를 최대한 줄임
-    + MAG를 최대한 많이 되살려 MAG 레벨의 분석의 수준을 높임 
 
 ##### Total Megahit assembly 0302_01
 
@@ -95,9 +91,10 @@
 
   - [MetaBAT2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/) (+ [COMEBin](https://www.nature.com/articles/s41467-023-44290-z) > [DASTools](https://www.nature.com/articles/s41564-018-0171-1)) > [CheckM](https://pmc.ncbi.nlm.nih.gov/articles/PMC4484387/) (QC) > [GTDB-tk](https://academic.oup.com/bioinformatics/article/36/6/1925/5626182) (Taxonomic assignment)
   - Preliminary: MetaBAT2 > CheckM (QC) > GTDB-tk
-  - Near-complete: completeness ≥ 90% & contamination ≤ 5%
-  - High-quality: completeness ≥ 70% & contamination ≤ 10%
-  - Medium-quality: completeness ≥ 50% & contamination ≤ 10%
+  - 분류 기준 (CheckM 결과 기준)
+    - Near-complete: completeness ≥ 90% & contamination ≤ 5%
+    - High-quality: completeness ≥ 70% & contamination ≤ 10%
+    - Medium-quality: completeness ≥ 50% & contamination ≤ 10%
 
 ##### (Preliminary) Binning result 01
 
@@ -122,4 +119,5 @@
   - 파일 위치: [root directory]/assembly/binning/
   - **Near-complete: 192개, High-quality: 591개, Midium-quality: 889개**
   - GTDB-tk 돌렸음, 파일 업로드 예정
+
 
