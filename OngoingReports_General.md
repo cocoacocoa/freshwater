@@ -91,6 +91,7 @@
 
   - [MetaBAT2](https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/) (+ [COMEBin](https://www.nature.com/articles/s41467-023-44290-z) > [DASTools](https://www.nature.com/articles/s41564-018-0171-1)) > [CheckM](https://pmc.ncbi.nlm.nih.gov/articles/PMC4484387/) (QC) > [GTDB-tk](https://academic.oup.com/bioinformatics/article/36/6/1925/5626182) (Taxonomic assignment)
   - Preliminary: MetaBAT2 > CheckM (QC) > GTDB-tk
+  - Preliminary (COMEBin): COMEBin > CheckM (QC) > GTDB-tk
   - 분류 기준 (CheckM 결과 기준)
     - Near-complete: completeness ≥ 90% & contamination ≤ 5%
     - High-quality: completeness ≥ 70% & contamination ≤ 10%
@@ -111,6 +112,15 @@
   - 파일 위치: [root directory]/coassembly/total/binning/total_assembly_megahit_0402_01/metabat2/
   - **Near-complete: 122개, High-quality: 480개, Midium-quality: 716개**
   - GTDB-tk 돌렸음, 파일 업로드 예정
+
+##### (Preliminary) Binning result 03 (COMEBin)
+
+  - Assembly: Total Megahit assembly 0402_01 이용
+  - Binning: **COMEBin만 이용**
+  - 파일 위치: [root directory]/coassembly/total/binning/total_assembly_megahit_0402_01/comebin/
+  - **Near-complete: 77개, High-quality: 289개, Midium-quality: 374개**
+  - GTDB-tk 돌릴 예정, 파일 업로드 예정
+  - 앞의 Binning result 02와 합쳐서, DASTool 돌려볼 예정
 
 ##### (Preliminary) Single Binning result 01
 
