@@ -1,8 +1,5 @@
 # Scripts
 
-## Problems and improvements in the current primer search code
-  * 
-
 ## find_primer_candidates.py
 
 #### Input
