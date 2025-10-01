@@ -122,7 +122,7 @@ def print_results(results):
         print(f"> {r['matched']} / {r['total']} Total sequence")
         for g, (m, t, pct) in sorted(r['groups'].items()):
             print(f"> {m} / {t} {g} sequence ({pct})")
-        print("\n-- 공통 프라이머 위치 (alignment 기준 index) --")
+        print("\n-- Common Primer Location (alignment level index) --")
         print(f"Start: {r['start']}, End: {r['end']}")
 
 if __name__ == "__main__":
