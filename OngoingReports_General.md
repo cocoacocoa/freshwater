@@ -145,4 +145,12 @@
   - Protein assignment
     - [EggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper?tab=readme-ov-file): 기본 옵션 이용, v2.1.13 (eggNOG 5.0)
   - 탄소 순환, 질소 순환 등과 관련된 분자 표지자(marker genes) 탐색 목적
-  - 파일 위치: [root directory]/protein/total_assembly_megahit_0402_01/eggnog/
+  - 파일 위치
+    - [root directory]/protein/total_assembly_megahit_0402_01/prodigal/ (protein prediction)
+    - [root directory]/protein/total_assembly_megahit_0402_01/eggnog/ (eggnog)
+
+## Mobile Genetic Element Assignment
+
+#### Strategy
+
+  - 
