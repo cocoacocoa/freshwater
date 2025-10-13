@@ -130,4 +130,19 @@
   - **Near-complete: 192개, High-quality: 591개, Midium-quality: 889개**
   - GTDB-tk 돌렸음, 파일 업로드 예정
 
+## Protein Annotation
 
+#### Strategy
+
+  - 단백질 예측 후 여러 프로그램을 이용하여 주석달기 진행
+  - 단백질의 빈도는 두 가지로 측정
+    - 단백질이 위치한 assembly의 빈도 (mapping된 read의 빈도)
+    - 단백질이 위치한 assembly를 포함하고 있는 bin의 빈도 (binning이 된 assembly일 경우)
+
+##### Annotation result for Megahit assembly 0402_01
+  
+  - Protein prediction: [Prodigal](https://github.com/hyattpd/Prodigal) on whole assembly
+  - Protein assignment
+    - EggNOG-mapper: 기본 옵션 이용, v2.1.13 (eggNOG 5.0)
+  - 탄소 순환, 질소 순환 등과 관련된 주요 유전자(probe genes) 탐색 목적
+  - 파일 위치: [root directory]/protein/total_assembly_megahit_0402_01/eggnog/
