@@ -163,4 +163,4 @@
   - 파일 위치: [root directory]/mges/genomad/assembly/total_assembly_megahit_0402_01/genomad_out_01
   - Plasmid로 assign된 assembly의 갯수(plasmid score > 0.8): 5,246개
   - Virus(provirus)로 assign된 assembly의 갯수(virus score > 0.8): 280,464개
-  - [Plasmid 및 Virus에 대한 통계 및 해석](/test)
+  - [Plasmid 및 Virus에 대한 통계 및 해석](/Reports/MGEs.md)
