@@ -134,8 +134,8 @@
 
 #### Strategy
 
-  - 단백질 예측 후 여러 프로그램을 이용하여 주석달기 진행
-  - 단백질의 빈도는 두 가지로 측정
+  - Assembly에서 단백질 예측 후 여러 프로그램을 이용하여 주석달기 진행
+  - 각각의 단백질의 빈도는 두 가지로 측정
     - 단백질이 위치한 assembly의 빈도 (mapping된 read의 빈도)
     - 단백질이 위치한 assembly를 포함하고 있는 bin의 빈도 (binning이 된 assembly일 경우)
 
@@ -144,7 +144,6 @@
   - Protein prediction: [Prodigal](https://github.com/hyattpd/Prodigal) on whole assembly
   - Protein assignment
     - [EggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper?tab=readme-ov-file): 기본 옵션 이용, v2.1.13 (eggNOG 5.0)
-  - 탄소 순환, 질소 순환 등과 관련된 분자 표지자(marker genes) 탐색 목적
   - 파일 위치
     - [root directory]/protein/total_assembly_megahit_0402_01/prodigal/ (protein prediction)
     - [root directory]/protein/total_assembly_megahit_0402_01/eggnog/ (eggnog)
@@ -153,4 +152,15 @@
 
 #### Strategy
 
-  - 
+  - Assembly를 기준으로 바이러스 및 프로바이러스 서열, 플라스미드 서열 등을 탐색함
+  - 각각의 assembly의 빈도는 두 가지로 측정
+    - Assembly의 빈도
+    - Assembly를 포함하고 있는 bin의 빈도 (binning이 된 assembly일 경우)
+
+##### Assignment result for Megahit assembly 0402_01
+
+  - Assignment: [geNomad](https://github.com/apcamargo/genomad) on whole assembly (option: --cleanup --conservative --lenient-taxonomy --full-ictv-lineage)
+  - 파일 위치: [root directory]/mges/genomad/assembly/total_assembly_megahit_0402_01/genomad_out_01
+  - Plasmid로 assign된 assembly의 갯수(plasmid score > 0.8): 5,246개
+  - Virus(provirus)로 assign된 assembly의 갯수(virus score > 0.8): 280,464개
+  - [Plasmid 및 Virus에 대한 통계 및 해석](/test)
