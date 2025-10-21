@@ -1,6 +1,6 @@
-## Mobile Genetic Element Assignment
+# Mobile Genetic Element Assignment
 
-### Assignment result for Megahit assembly 0402_01
+## Assignment result for Megahit assembly 0402_01
 
   - Assignment: geNomad on whole assembly (option: --cleanup --conservative --lenient-taxonomy --full-ictv-lineage)
   - 파일 위치: [root directory]/mges/genomad/assembly/total_assembly_megahit_0402_01/genomad_out_01
@@ -9,7 +9,7 @@
 
 #### Virus statistics and ChatGPT commment
 
-  - 원본 파일 링크: []()
+  - 파일 위치: [root directory]/mges/genomad/assembly/total_assembly_megahit_0402_01/genomad_out_01/final.contigs_summary/final.contigs_virus_summary.tsv
   - Top 20 most detected viruses
 
 ```
